@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Open+Sans:wght@400;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
 *{
     margin: 0;
@@ -27,6 +28,7 @@ main{
     font-weight: 700;
     color: #121212;
     margin-bottom: 20px;
+    text-align: center;
 
 }
 .section-description{
@@ -54,6 +56,7 @@ main{
     color: #FFF;
     font-size: 65px;
     font-weight: 700;
+    text-align: center;
 }
 .header-description{
     color: #FFF;
@@ -103,4 +106,114 @@ main{
     background-color: #DADADA;
     width: 750px;
     margin: 10px auto 30px;
+}
+
+
+/* donate-plan-section */
+.donate-plan-card-container{
+    margin-top: 50px;
+    display: flex;
+    gap:24px;
+}
+.donate-plan-card{
+    border-radius: 5px;
+    background: #FFF4D6;
+    padding: 55px 25px;
+}
+.donate-plan-card-container .active{
+    background: rgba(79, 157, 166, 0.10);
+    border:none;
+
+}
+.donate-plan-card:hover{
+    background: rgba(255, 89, 89, 0.10);
+
+}
+.card-title{
+    font-size: 24px;
+    font-weight: 700;
+    margin: 30px 0 20px;
+}
+.card-description{
+    color: #707070;;
+}
+
+/* contribute section  */
+.contribute-event{
+    display: flex;
+    gap:80px;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+.contribute-details{
+    max-width: 50%;
+}
+.contribute-details .section-title{
+    text-align: left;
+}
+.contribute-details .section-description{
+    width: auto;
+    margin-top: 20px;
+}
+.contribute-details .btn-primary{
+    margin-top: 30px;
+    padding: 16px 12px;
+}
+.contribute-banner{
+    max-width: 50%;
+    height: 450px;
+   
+
+}
+.banner-image{
+    width: 100%;
+    height: 100%;
+  
+}
+
+
+.subscribe-box{
+    width: 800px;
+    height: 200px;
+    background-color: #FFF4D6;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscribe-form{
+    border-radius: 5px 0px 0px 5px;
+    background: #D9D9D9;
+    width: 323px;
+    height: 55px;
+}
+.subscribe-form input, .subscribe-form input:focus{
+    border: 0;
+    background-color: transparent;
+}
+
+footer{
+    margin-top: 130px;
+    background-color: #0B0D17;
+    height: 175px;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.footer-title{
+    font-family: 'Lobster', cursive;
+    color: #FF5959;
+    font-size: 36px;
+    font-weight: 700;
+}
+.footer-subtitle{
+    color: #D9DBE1;
+    font-size: 14px;
+    margin-top: 24px;
+    text-align: center;
 }
